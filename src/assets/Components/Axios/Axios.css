@@ -1,0 +1,35 @@
+.swiper ul{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.swiper {
+    overflow: scroll;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.swiperimg {
+    width: 30vh;
+    height: 30vh;
+    background-color: darkgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.swBody {
+    background-color: gray;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+.swiper {
+    cursor: pointer;
+
+}

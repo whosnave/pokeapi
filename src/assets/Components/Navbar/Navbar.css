@@ -1,0 +1,139 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: white;
+    height: 105px;
+    box-shadow: 1px -2px 10px;
+    /* position: sticky; */
+    margin-bottom: 50px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+ul{
+    
+    justify-content: center;
+    list-style: none;
+}
+
+.box1, .box2, .box5, .box7 {
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.box3, .box4, .box6 {
+    background-color: black;
+    text-align: center;
+    padding: 35px;
+}
+
+.box1 {
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box1:hover {
+    background-color: rgb(160, 160, 160)
+}
+
+.box7 {
+    border-bottom-right-radius: 5px;
+}
+
+.box2 {
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box2:hover {
+    background-color: red
+}
+
+a:hover {
+    color: white;
+}
+
+.box3 {
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box3:hover {
+    background-color:  rgb(224, 149, 9)
+}
+
+.box4 {
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box4:hover {
+    background-color: rgb(226, 226, 8);
+}
+
+.box5 {
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box5:hover {
+    background-color: rgb(0, 187, 0);
+}
+
+.box6 {
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box6:hover {
+    background-color: rgb(16, 207, 207);
+}
+
+.box7 {
+    background-color: white;
+    transition: background-color 0.1s ease;
+}
+.box7:hover {
+    background-color:  blue;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.1s ease;
+}
+
+/* a:hover{
+    color: white;
+} */
+
+.box1 {
+    border-bottom: 6px solid rgb(160, 160, 160) ;
+}
+
+.box2 {
+    border-bottom: 6px solid red ;
+}
+
+.box3 {
+    border-bottom: 6px solid rgb(224, 149, 9);
+}
+
+.box4 {
+    border-bottom: 6px solid rgb(226, 226, 8);
+}
+
+.box5 {
+    border-bottom: 6px solid  rgb(0, 187, 0);
+}
+
+.box6 {
+    border-bottom: 6px solid  rgb(16, 207, 207);
+}
+
+.box7 {
+    border-bottom: 6px solid blue;
+}
